@@ -298,7 +298,7 @@ int main() {
     int int2 = -1;
 
     //part 15
-    const int size = 2; //declaring variables
+    const int size = 3; //declaring variables
     bool isZero;
     int rowIndex;
     int colIndex;
@@ -310,7 +310,8 @@ int main() {
     randnumArray[size] = initialize(randnumArray, visArray, hiddenArray, size); //calling the initialize function to start the game
 
     //part 16
-    string userName = getName(userName); //calls getName function to put userName into the string
+    string userName;
+    userName = getName(userName); //calls getName function to put userName into the string
 
     //part 17
     
